@@ -1,0 +1,37 @@
+﻿# IDE
+.idea/
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+bin/
+obj/
+[Bb]uild/
+[Dd]ebug/
+[Rr]elease/
+[Dd]ebugPublic/
+[Rr]eleases/
+
+# .NET
+*.swp
+*.*~
+packages/
+*.nupkg
+appsettings.Development.json
+
+# Git hooks
+.githooks/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project configuration files
+.editorconfig
+.gitattributes
+Directory.Build.props
+Directory.Packages.props

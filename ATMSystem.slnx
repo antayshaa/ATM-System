@@ -1,0 +1,23 @@
+﻿<Solution>
+    <Folder Name="/common/">
+        <File Path="Directory.Packages.props" />
+        <File Path="Directory.Build.props" />
+        <File Path=".editorconfig" />
+        <File Path=".gitattributes" />
+        <File Path=".gitignore" />
+    </Folder>
+
+    <Folder Name="/src/">
+        <Project Path="src\Core\ATMSystem.Core.csproj" Type="Classic C#" />
+        <Project Path="src\Presentation\ATMSystem.Presentation.csproj" Type="Classic C#" />
+    </Folder>
+
+    <Folder Name="/src/Infrastructure/">
+        <Project Path="src\Infrastructure\DataBaseDataAccess\ATMSystem.Infrastructure.DataBase.csproj" Type="Classic C#" />
+        <Project Path="src\Infrastructure\InMemoryDataAccess\ATMSystem.Infrastructure.InMemory.csproj" Type="Classic C#" />
+    </Folder>
+
+    <Folder Name="/tests/">
+        <Project Path="tests\ATMSystem.Tests\ATMSystem.Tests.csproj" Type="Classic C#" />
+    </Folder>
+</Solution>

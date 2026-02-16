@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{42C33492-709B-4025-BF50-53E4B3CC9433}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATMSystem.Core", "src\Core\Core.csproj", "{C72389AF-84A1-4922-B874-643B02554665}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATMSystem.Presentation", "src\Presentation\Presentation.csproj", "{0EDF5DE9-BF74-400E-94F3-D86B5E9212A3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{E63108B6-FC1E-4002-BE06-B52D9C6D9FBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATMSystem.Tests", "tests\tests.csproj", "{476E7682-9695-442D-9D7F-46CFFE47813E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{60702BBB-AEEF-40A8-AB18-7437199D2B5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATMSystem.Infrastructure.DataBase", "src\Infrastructure\DataBaseDataAccess\DataBase.csproj", "{48E70B5C-7B4F-4BFF-BE7A-0D834C9E6C27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATMSystem.Infrastructure.InMemory", "src\Infrastructure\InMemoryDataAccess\InMemory.csproj", "{B08317F8-B991-4E2B-8558-6E85FA3590F4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C72389AF-84A1-4922-B874-643B02554665}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C72389AF-84A1-4922-B874-643B02554665}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C72389AF-84A1-4922-B874-643B02554665}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C72389AF-84A1-4922-B874-643B02554665}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EDF5DE9-BF74-400E-94F3-D86B5E9212A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EDF5DE9-BF74-400E-94F3-D86B5E9212A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EDF5DE9-BF74-400E-94F3-D86B5E9212A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EDF5DE9-BF74-400E-94F3-D86B5E9212A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{476E7682-9695-442D-9D7F-46CFFE47813E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{476E7682-9695-442D-9D7F-46CFFE47813E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{476E7682-9695-442D-9D7F-46CFFE47813E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{476E7682-9695-442D-9D7F-46CFFE47813E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48E70B5C-7B4F-4BFF-BE7A-0D834C9E6C27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48E70B5C-7B4F-4BFF-BE7A-0D834C9E6C27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48E70B5C-7B4F-4BFF-BE7A-0D834C9E6C27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48E70B5C-7B4F-4BFF-BE7A-0D834C9E6C27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B08317F8-B991-4E2B-8558-6E85FA3590F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B08317F8-B991-4E2B-8558-6E85FA3590F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B08317F8-B991-4E2B-8558-6E85FA3590F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B08317F8-B991-4E2B-8558-6E85FA3590F4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C72389AF-84A1-4922-B874-643B02554665} = {42C33492-709B-4025-BF50-53E4B3CC9433}
+		{0EDF5DE9-BF74-400E-94F3-D86B5E9212A3} = {42C33492-709B-4025-BF50-53E4B3CC9433}
+		{476E7682-9695-442D-9D7F-46CFFE47813E} = {E63108B6-FC1E-4002-BE06-B52D9C6D9FBE}
+		{60702BBB-AEEF-40A8-AB18-7437199D2B5D} = {42C33492-709B-4025-BF50-53E4B3CC9433}
+		{48E70B5C-7B4F-4BFF-BE7A-0D834C9E6C27} = {60702BBB-AEEF-40A8-AB18-7437199D2B5D}
+		{B08317F8-B991-4E2B-8558-6E85FA3590F4} = {60702BBB-AEEF-40A8-AB18-7437199D2B5D}
+	EndGlobalSection
+EndGlobal
